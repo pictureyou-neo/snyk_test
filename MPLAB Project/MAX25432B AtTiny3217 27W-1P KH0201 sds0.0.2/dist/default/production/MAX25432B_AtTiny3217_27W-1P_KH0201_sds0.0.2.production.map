@@ -888,24 +888,24 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000    0x14f15
+.debug_info     0x0000000000000000    0x14f6f
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000     0x1c4d C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/ATtiny_DFP/2.6.122/xc8/avr/lib/avrxmega3/crtattiny3217.o
- .debug_info    0x0000000000001c4d      0xe8b build/default/production/mcc_generated_files/examples/twi0_master_example.o
- .debug_info    0x0000000000002ad8      0xcac build/default/production/mcc_generated_files/src/pin_manager.o
- .debug_info    0x0000000000003784       0xf1 build/default/production/mcc_generated_files/src/protected_io.o
- .debug_info    0x0000000000003875      0x436 build/default/production/mcc_generated_files/src/cpuint.o
- .debug_info    0x0000000000003cab      0x7be build/default/production/mcc_generated_files/src/usart0.o
- .debug_info    0x0000000000004469     0x1a6d build/default/production/mcc_generated_files/src/twi0_master.o
- .debug_info    0x0000000000005ed6      0x8f1 build/default/production/mcc_generated_files/src/rtc.o
- .debug_info    0x00000000000067c7      0xdef build/default/production/mcc_generated_files/src/nvmctrl.o
- .debug_info    0x00000000000075b6      0x86a build/default/production/mcc_generated_files/device_config.o
- .debug_info    0x0000000000007e20      0x993 build/default/production/mcc_generated_files/mcc.o
- .debug_info    0x00000000000087b3      0xfd1 build/default/production/mx_tcpm.o
- .debug_info    0x0000000000009784     0x4441 build/default/production/tcpci.o
- .debug_info    0x000000000000dbc5     0x6548 build/default/production/tcpm.o
- .debug_info    0x000000000001410d      0xa16 build/default/production/main.o
- .debug_info    0x0000000000014b23      0x3f2 build/default/production/mx_time.o
+ .debug_info    0x0000000000001c4d      0xe91 build/default/production/mcc_generated_files/examples/twi0_master_example.o
+ .debug_info    0x0000000000002ade      0xcb2 build/default/production/mcc_generated_files/src/pin_manager.o
+ .debug_info    0x0000000000003790       0xf7 build/default/production/mcc_generated_files/src/protected_io.o
+ .debug_info    0x0000000000003887      0x43c build/default/production/mcc_generated_files/src/cpuint.o
+ .debug_info    0x0000000000003cc3      0x7c4 build/default/production/mcc_generated_files/src/usart0.o
+ .debug_info    0x0000000000004487     0x1a73 build/default/production/mcc_generated_files/src/twi0_master.o
+ .debug_info    0x0000000000005efa      0x8f7 build/default/production/mcc_generated_files/src/rtc.o
+ .debug_info    0x00000000000067f1      0xdf5 build/default/production/mcc_generated_files/src/nvmctrl.o
+ .debug_info    0x00000000000075e6      0x870 build/default/production/mcc_generated_files/device_config.o
+ .debug_info    0x0000000000007e56      0x999 build/default/production/mcc_generated_files/mcc.o
+ .debug_info    0x00000000000087ef      0xfd7 build/default/production/mx_tcpm.o
+ .debug_info    0x00000000000097c6     0x4447 build/default/production/tcpci.o
+ .debug_info    0x000000000000dc0d     0x654e build/default/production/tcpm.o
+ .debug_info    0x000000000001415b      0xa1c build/default/production/main.o
+ .debug_info    0x0000000000014b77      0x3f8 build/default/production/mx_time.o
 
 .debug_abbrev   0x0000000000000000     0x379b
  *(.debug_abbrev)

@@ -94,170 +94,170 @@ MP_PROCESSOR_OPTION=ATtiny3217
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o: mcc_generated_files/examples/twi0_master_example.c  .generated_files/flags/default/614fb0f060fa9a2fc15b346adc845b26664b9338 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o: mcc_generated_files/examples/twi0_master_example.c  .generated_files/flags/default/1635abde3f5949895d9ed94b656faa8bd7089780 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/examples" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o.d" -MT "${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o.d" -MT ${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o -o ${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o mcc_generated_files/examples/twi0_master_example.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/pin_manager.o: mcc_generated_files/src/pin_manager.c  .generated_files/flags/default/ce01783897903f75cd9b3f0068fe2f2cd047061a .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/pin_manager.o: mcc_generated_files/src/pin_manager.c  .generated_files/flags/default/9012505a3db7c54dbfbf3764f7b2fa85ac6b8954 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o -o ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o mcc_generated_files/src/pin_manager.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/cpuint.o: mcc_generated_files/src/cpuint.c  .generated_files/flags/default/793c1626b346e5c24e09decd280bd12f38dba699 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/cpuint.o: mcc_generated_files/src/cpuint.c  .generated_files/flags/default/ca493890009e922001a1d0b7c29024e259775bd0 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/cpuint.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/cpuint.o -o ${OBJECTDIR}/mcc_generated_files/src/cpuint.o mcc_generated_files/src/cpuint.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/usart0.o: mcc_generated_files/src/usart0.c  .generated_files/flags/default/ee53b04addc1fdd2e66b2780619412fb123a3c43 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/usart0.o: mcc_generated_files/src/usart0.c  .generated_files/flags/default/b4f4c2d6c544f253915efdd18782e8b53442a16 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/usart0.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/usart0.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/usart0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/usart0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/usart0.o -o ${OBJECTDIR}/mcc_generated_files/src/usart0.o mcc_generated_files/src/usart0.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/twi0_master.o: mcc_generated_files/src/twi0_master.c  .generated_files/flags/default/edfb447420f68c1af497e907538dfec84a284747 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/twi0_master.o: mcc_generated_files/src/twi0_master.c  .generated_files/flags/default/e6a6a520723e7a1943e51473775aa41b393f9dbd .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/twi0_master.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/twi0_master.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/twi0_master.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/twi0_master.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/twi0_master.o -o ${OBJECTDIR}/mcc_generated_files/src/twi0_master.o mcc_generated_files/src/twi0_master.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/rtc.o: mcc_generated_files/src/rtc.c  .generated_files/flags/default/fb3d6ec400efcbc8ebda5d7affe4d5e1230fa3ee .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/rtc.o: mcc_generated_files/src/rtc.c  .generated_files/flags/default/919ece490238f688378156fb26ab51e0e43368d1 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/rtc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/rtc.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/rtc.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/rtc.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/rtc.o -o ${OBJECTDIR}/mcc_generated_files/src/rtc.o mcc_generated_files/src/rtc.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o: mcc_generated_files/src/nvmctrl.c  .generated_files/flags/default/366dd6562f0641d8d0c3d0ef438fa74cc93a05be .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o: mcc_generated_files/src/nvmctrl.c  .generated_files/flags/default/d413df597a5b5234501a1abb5781eca70005c52d .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o -o ${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o mcc_generated_files/src/nvmctrl.c 
 	
-${OBJECTDIR}/mcc_generated_files/device_config.o: mcc_generated_files/device_config.c  .generated_files/flags/default/7e27861997029f57638d061dc48cdb86563ec6b9 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/device_config.o: mcc_generated_files/device_config.c  .generated_files/flags/default/5c1868b212e7e35a34f2d00556b54a955cce771d .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/device_config.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/device_config.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/device_config.o.d" -MT "${OBJECTDIR}/mcc_generated_files/device_config.o.d" -MT ${OBJECTDIR}/mcc_generated_files/device_config.o -o ${OBJECTDIR}/mcc_generated_files/device_config.o mcc_generated_files/device_config.c 
 	
-${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/default/576bab063f93efe7b4780732e607016b0c9d49a .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/default/4fdaa1090b37e6296ef742d11551f2db9cc0cdd0 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/mcc.o.d" -MT "${OBJECTDIR}/mcc_generated_files/mcc.o.d" -MT ${OBJECTDIR}/mcc_generated_files/mcc.o -o ${OBJECTDIR}/mcc_generated_files/mcc.o mcc_generated_files/mcc.c 
 	
-${OBJECTDIR}/mx_tcpm.o: mx_tcpm.c  .generated_files/flags/default/cf6221959cf3bb89952893a8f7802475f5bfbba8 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mx_tcpm.o: mx_tcpm.c  .generated_files/flags/default/349680e28f8b024ca47226d9ea0e4efc5828b696 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/mx_tcpm.o.d 
 	@${RM} ${OBJECTDIR}/mx_tcpm.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mx_tcpm.o.d" -MT "${OBJECTDIR}/mx_tcpm.o.d" -MT ${OBJECTDIR}/mx_tcpm.o -o ${OBJECTDIR}/mx_tcpm.o mx_tcpm.c 
 	
-${OBJECTDIR}/tcpci.o: tcpci.c  .generated_files/flags/default/40058d1b7af3bde74198c0a43b4a4540dd49b8a6 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/tcpci.o: tcpci.c  .generated_files/flags/default/e58fea083cb8d4fe8a2b92e6e13f1aa69f48e01c .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/tcpci.o.d 
 	@${RM} ${OBJECTDIR}/tcpci.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/tcpci.o.d" -MT "${OBJECTDIR}/tcpci.o.d" -MT ${OBJECTDIR}/tcpci.o -o ${OBJECTDIR}/tcpci.o tcpci.c 
 	
-${OBJECTDIR}/tcpm.o: tcpm.c  .generated_files/flags/default/b1292f62ee6854d2ec5d48407cb61e49d2d77528 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/tcpm.o: tcpm.c  .generated_files/flags/default/5be2152f9f340a27a0448f430ebc8bfc6f1db858 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/tcpm.o.d 
 	@${RM} ${OBJECTDIR}/tcpm.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/tcpm.o.d" -MT "${OBJECTDIR}/tcpm.o.d" -MT ${OBJECTDIR}/tcpm.o -o ${OBJECTDIR}/tcpm.o tcpm.c 
 	
-${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/52e204ce1d7fbf4f7bb300c48efc8fb52648f3ee .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/628976a6ddef4be2dad93658528c23278f955350 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/main.o.d" -MT "${OBJECTDIR}/main.o.d" -MT ${OBJECTDIR}/main.o -o ${OBJECTDIR}/main.o main.c 
 	
-${OBJECTDIR}/mx_time.o: mx_time.c  .generated_files/flags/default/9ac211a0cb5ccf52edde33cbf0b7778280ba234e .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mx_time.o: mx_time.c  .generated_files/flags/default/63da0650085ab74a02c19393e459dcd103d2e9a3 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/mx_time.o.d 
 	@${RM} ${OBJECTDIR}/mx_time.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mx_time.o.d" -MT "${OBJECTDIR}/mx_time.o.d" -MT ${OBJECTDIR}/mx_time.o -o ${OBJECTDIR}/mx_time.o mx_time.c 
 	
 else
-${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o: mcc_generated_files/examples/twi0_master_example.c  .generated_files/flags/default/72e5891aaf3dae2fa00563fb2273d19e57fb6028 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o: mcc_generated_files/examples/twi0_master_example.c  .generated_files/flags/default/a3014b932c5501fafe615dab3b64d238a37efc6f .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/examples" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o.d" -MT "${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o.d" -MT ${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o -o ${OBJECTDIR}/mcc_generated_files/examples/twi0_master_example.o mcc_generated_files/examples/twi0_master_example.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/pin_manager.o: mcc_generated_files/src/pin_manager.c  .generated_files/flags/default/8a54d0d8fdc1744eccdda61f11c74387c4590ce5 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/pin_manager.o: mcc_generated_files/src/pin_manager.c  .generated_files/flags/default/8f522863bdcd5e2d26428363f254f178f37be166 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o -o ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o mcc_generated_files/src/pin_manager.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/cpuint.o: mcc_generated_files/src/cpuint.c  .generated_files/flags/default/afac720490fb18dbfd3eec684579969f993b7f1a .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/cpuint.o: mcc_generated_files/src/cpuint.c  .generated_files/flags/default/8d4e855bf3f787393dbf0f0f64b57a0de27ab278 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/cpuint.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/cpuint.o -o ${OBJECTDIR}/mcc_generated_files/src/cpuint.o mcc_generated_files/src/cpuint.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/usart0.o: mcc_generated_files/src/usart0.c  .generated_files/flags/default/6918988f8ab337fc3d4451e52d41e5ca47e72f5a .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/usart0.o: mcc_generated_files/src/usart0.c  .generated_files/flags/default/2f4905142fec85792838722f3c607b2906d82ad7 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/usart0.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/usart0.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/usart0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/usart0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/usart0.o -o ${OBJECTDIR}/mcc_generated_files/src/usart0.o mcc_generated_files/src/usart0.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/twi0_master.o: mcc_generated_files/src/twi0_master.c  .generated_files/flags/default/6fbfd7a478c70cfd23d06d3492769ead0d178598 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/twi0_master.o: mcc_generated_files/src/twi0_master.c  .generated_files/flags/default/bd0309a1c33c9135da93ecf5ad9799d3b13ada6e .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/twi0_master.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/twi0_master.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/twi0_master.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/twi0_master.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/twi0_master.o -o ${OBJECTDIR}/mcc_generated_files/src/twi0_master.o mcc_generated_files/src/twi0_master.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/rtc.o: mcc_generated_files/src/rtc.c  .generated_files/flags/default/1e61d9e2e8996be2075e890cfd6349b2a534e312 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/rtc.o: mcc_generated_files/src/rtc.c  .generated_files/flags/default/73fea1950bd2d03a8b2c4dc052e44f020f5e155 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/rtc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/rtc.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/rtc.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/rtc.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/rtc.o -o ${OBJECTDIR}/mcc_generated_files/src/rtc.o mcc_generated_files/src/rtc.c 
 	
-${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o: mcc_generated_files/src/nvmctrl.c  .generated_files/flags/default/af9df4157542ac95a4c16838e13fd81186ff4df8 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o: mcc_generated_files/src/nvmctrl.c  .generated_files/flags/default/565f4c35d993383988783bc273ffe8e89244d640 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o -o ${OBJECTDIR}/mcc_generated_files/src/nvmctrl.o mcc_generated_files/src/nvmctrl.c 
 	
-${OBJECTDIR}/mcc_generated_files/device_config.o: mcc_generated_files/device_config.c  .generated_files/flags/default/676dc5df210d8057464a1e1926c7359b6b429d98 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/device_config.o: mcc_generated_files/device_config.c  .generated_files/flags/default/956c0e2b0e28d532069e467ed50af6b05b9cd53a .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/device_config.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/device_config.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/device_config.o.d" -MT "${OBJECTDIR}/mcc_generated_files/device_config.o.d" -MT ${OBJECTDIR}/mcc_generated_files/device_config.o -o ${OBJECTDIR}/mcc_generated_files/device_config.o mcc_generated_files/device_config.c 
 	
-${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/default/b4c16331abf88e67ddde544711ad5074a3bf7e9f .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/default/1f82b9598b5f186f438d0c06fe83a58670c42a1e .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/mcc.o.d" -MT "${OBJECTDIR}/mcc_generated_files/mcc.o.d" -MT ${OBJECTDIR}/mcc_generated_files/mcc.o -o ${OBJECTDIR}/mcc_generated_files/mcc.o mcc_generated_files/mcc.c 
 	
-${OBJECTDIR}/mx_tcpm.o: mx_tcpm.c  .generated_files/flags/default/26ed6b4093b37310a46fc5e1e604eeaf08709f8e .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mx_tcpm.o: mx_tcpm.c  .generated_files/flags/default/cd3d5cf10ff3a78a65920099ccec98dcf2bd75fe .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/mx_tcpm.o.d 
 	@${RM} ${OBJECTDIR}/mx_tcpm.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mx_tcpm.o.d" -MT "${OBJECTDIR}/mx_tcpm.o.d" -MT ${OBJECTDIR}/mx_tcpm.o -o ${OBJECTDIR}/mx_tcpm.o mx_tcpm.c 
 	
-${OBJECTDIR}/tcpci.o: tcpci.c  .generated_files/flags/default/6d7e4d8055ce6d1c6d0e554e3051335a9ebdfe95 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/tcpci.o: tcpci.c  .generated_files/flags/default/5506227acb95edf3573144ca1baba9e3238748f1 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/tcpci.o.d 
 	@${RM} ${OBJECTDIR}/tcpci.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/tcpci.o.d" -MT "${OBJECTDIR}/tcpci.o.d" -MT ${OBJECTDIR}/tcpci.o -o ${OBJECTDIR}/tcpci.o tcpci.c 
 	
-${OBJECTDIR}/tcpm.o: tcpm.c  .generated_files/flags/default/8bd7dddbb6c71fb2e62da513c0b704cc3fa57880 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/tcpm.o: tcpm.c  .generated_files/flags/default/bae526ae42566a70e0e79578c32e770d1e42cba .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/tcpm.o.d 
 	@${RM} ${OBJECTDIR}/tcpm.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/tcpm.o.d" -MT "${OBJECTDIR}/tcpm.o.d" -MT ${OBJECTDIR}/tcpm.o -o ${OBJECTDIR}/tcpm.o tcpm.c 
 	
-${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/252f76df2e4831901d2456e3da24165397eb2c8d .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/897b94f9b6364a0b28231a888a561bacc8a3191c .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/main.o.d" -MT "${OBJECTDIR}/main.o.d" -MT ${OBJECTDIR}/main.o -o ${OBJECTDIR}/main.o main.c 
 	
-${OBJECTDIR}/mx_time.o: mx_time.c  .generated_files/flags/default/a0087bd1aab53e38675192b84888fa33e6a9a38 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mx_time.o: mx_time.c  .generated_files/flags/default/4dac36c1943c1ea483fd86c36cd778a3147d434e .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/mx_time.o.d 
 	@${RM} ${OBJECTDIR}/mx_time.o 
@@ -274,14 +274,14 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assembleWithPreprocess
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/mcc_generated_files/src/protected_io.o: mcc_generated_files/src/protected_io.S  .generated_files/flags/default/de00777b2be7f24b1aee89ad45dc9f8013b36b27 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/protected_io.o: mcc_generated_files/src/protected_io.S  .generated_files/flags/default/fc12da4647d8e9b7b2996d1c12d1db3b6e5f22e0 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/protected_io.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/protected_io.o 
 	${MP_CC} -c $(MP_EXTRA_AS_PRE) -mcpu=$(MP_PROCESSOR_OPTION)  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x assembler-with-cpp -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  -gdwarf-3 -Wa,--defsym=__MPLAB_BUILD=1,--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1   -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/protected_io.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/protected_io.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/protected_io.o -o ${OBJECTDIR}/mcc_generated_files/src/protected_io.o  mcc_generated_files/src/protected_io.S 
 	
 else
-${OBJECTDIR}/mcc_generated_files/src/protected_io.o: mcc_generated_files/src/protected_io.S  .generated_files/flags/default/3ba010f47c45ff084afc35eeaccedff85238ae0a .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
+${OBJECTDIR}/mcc_generated_files/src/protected_io.o: mcc_generated_files/src/protected_io.S  .generated_files/flags/default/c201c8a01df1536b40b6f94ca0b53e2c4499bf71 .generated_files/flags/default/c74ff570b0c25ed23076e4f742f12f1c54d206c
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/protected_io.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/protected_io.o 
